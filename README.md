@@ -61,7 +61,7 @@ These eight synthetic posts were written to probe the label edges. Applying the 
 
 ## The Dataset
 
-**Where the posts came from:** The fictional running-forum practice dataset included with this repository, plus 140 synthetic examples written for this exercise. These are not collected public posts, so this dataset does not meet the assignment's public-community collection requirement.
+**Where the posts came from:** The fictional running-forum practice dataset included with this repository, plus 160 synthetic examples written for this exercise (140 for the initial run and 20 for the improvement run). These are not collected public posts, so this dataset does not meet the assignment's public-community collection requirement.
 
 **How I labelled them:** The included 60 practice examples retain their supplied labels. The added examples were authored with the label definitions in mind; they were not cold-labeled or independently reviewed. No AI pre-labeling was used.
 
