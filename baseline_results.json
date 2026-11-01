@@ -1,0 +1,184 @@
+{
+  "model": "facebook/bart-large-mnli",
+  "n": 30,
+  "seed": 42,
+  "held_out": true,
+  "used_definitions": true,
+  "scores": {
+    "n": 30,
+    "accuracy": 0.7,
+    "f1_macro": 0.6665734265734266,
+    "per_label": {
+      "analysis": {
+        "precision": 0.75,
+        "recall": 0.9,
+        "f1": 0.8181818181818182,
+        "support": 10
+      },
+      "hot_take": {
+        "precision": 0.6,
+        "recall": 0.9,
+        "f1": 0.7200000000000001,
+        "support": 10
+      },
+      "reaction": {
+        "precision": 1.0,
+        "recall": 0.3,
+        "f1": 0.4615384615384615,
+        "support": 10
+      }
+    }
+  },
+  "predictions": [
+    {
+      "text": "My log has 15 taper week sessions at 42 minutes total. The slower days followed poor sleep, so I would fix recovery before changing the plan.",
+      "gold": "analysis",
+      "predicted": "analysis"
+    },
+    {
+      "text": "Just watched someone in a full costume run past me at mile 20 and I've never felt worse about myself.",
+      "gold": "reaction",
+      "predicted": "reaction"
+    },
+    {
+      "text": "Had a rough track workouts this morning and I am still annoyed at myself. At least I got out the door.",
+      "gold": "reaction",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "Split the field by finish time and looked at DNF rates. Under 3:30, about 1%. Over 5 hours, about 9%. The cutoff is at 6 hours and the aid stations start closing at 5:15, which might explain more of that than fitness does.",
+      "gold": "analysis",
+      "predicted": "analysis"
+    },
+    {
+      "text": "My log has 3 strength work sessions at a 6% improvement. The slower days followed poor sleep, so I would fix recovery before changing the plan.",
+      "gold": "analysis",
+      "predicted": "analysis"
+    },
+    {
+      "text": "trail routes are overrated. People keep recommending them as if they solve every training problem.",
+      "gold": "hot_take",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "Absolutely buried myself on that tempo and I regret nothing.",
+      "gold": "reaction",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "No one needs another complicated rule for easy runs. Consistency beats all of it.",
+      "gold": "hot_take",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "I compared 2 weeks of heat training: the average was one fewer stop. That points to consistency mattering more than any single hard workout.",
+      "gold": "analysis",
+      "predicted": "analysis"
+    },
+    {
+      "text": "The whole debate about watch data is backwards. Most runners would improve more by keeping things simple.",
+      "gold": "hot_take",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "Just finished recovery and my legs are toast. I need a minute before I decide whether that was fun.",
+      "gold": "reaction",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "The women's field here has grown 60% in five years while the men's is flat. That's the actual story of this race and nobody writes about it.",
+      "gold": "analysis",
+      "predicted": "analysis"
+    },
+    {
+      "text": "Just got back from the long run and I cannot feel my hands. Worth it though.",
+      "gold": "reaction",
+      "predicted": "analysis"
+    },
+    {
+      "text": "First time under 20 for the 5k and I nearly cried at the finish line. Four years I've been chasing that.",
+      "gold": "reaction",
+      "predicted": "analysis"
+    },
+    {
+      "text": "Missed my goal by eleven seconds. Eleven. I'm going to be thinking about that for a month.",
+      "gold": "reaction",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "The whole debate about winter training is backwards. Most runners would improve more by keeping things simple.",
+      "gold": "hot_take",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "The 5k is the only honest distance. Everything longer is a logistics competition.",
+      "gold": "hot_take",
+      "predicted": "analysis"
+    },
+    {
+      "text": "Negative splitting is a myth that people repeat because it sounds disciplined.",
+      "gold": "hot_take",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "interval sessions are overrated. People keep recommending them as if they solve every training problem.",
+      "gold": "hot_take",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "My log has 6 hill repeats sessions at an average pace of 5:12 per kilometre. The slower days followed poor sleep, so I would fix recovery before changing the plan.",
+      "gold": "analysis",
+      "predicted": "analysis"
+    },
+    {
+      "text": "Across 4 races, one fewer stop happened when I started conservatively. The pattern suggests pacing matters more than the course profile. I checked the raw splits before drawing that conclusion.",
+      "gold": "analysis",
+      "predicted": "analysis"
+    },
+    {
+      "text": "race pacing are overrated. People keep recommending them as if they solve every training problem.",
+      "gold": "hot_take",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "That race fees session felt amazing today. I came home grinning and immediately told everyone about it.",
+      "gold": "reaction",
+      "predicted": "reaction"
+    },
+    {
+      "text": "Bought a treadmill in January and my outdoor pace got worse by about 10 seconds a mile through February. Same heart rate, same effort. I think the treadmill was flattering me on effort and I'd stopped running hills entirely.",
+      "gold": "analysis",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "I compared 2 weeks of hill repeats: the average was an average pace of 5:12 per kilometre. That points to consistency mattering more than any single hard workout.",
+      "gold": "analysis",
+      "predicted": "analysis"
+    },
+    {
+      "text": "Track workouts are for people who like feeling fast more than getting fast.",
+      "gold": "hot_take",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "Just finished heat training and my legs are toast. I need a minute before I decide whether that was fun.",
+      "gold": "reaction",
+      "predicted": "reaction"
+    },
+    {
+      "text": "Two weeks out and I've picked up a cold. Timing could not be worse.",
+      "gold": "reaction",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "No one needs another complicated rule for long runs. Consistency beats all of it.",
+      "gold": "hot_take",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "Across 4 races, one fewer stop happened when I started conservatively. The pattern suggests pacing matters more than the course profile.",
+      "gold": "analysis",
+      "predicted": "analysis"
+    }
+  ]
+}
